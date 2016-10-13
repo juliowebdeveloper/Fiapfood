@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center" >
+
+
+    <TextView
+        style="@style/SobreTextView"
+        android:id="@+id/tvNomeAplication"
+        android:text="@string/app_name"
+        />
+
+    <ImageView
+        style="@style/SobreImageViewLogo"
+        android:id="@+id/ivSobreLogo"
+        />
+
+    <TextView
+        style="@style/SobreTextView"
+        android:text="@string/version"
+         />
+
+
+    <TextView
+        android:text="@string/versionName"
+        style="@style/SobreTextView"
+        />
+
+    <TextView
+
+        android:id="@+id/tvCriador"
+        android:text="@string/creator"
+        style="@style/SobreTextView"
+        />
+
+
+</LinearLayout>

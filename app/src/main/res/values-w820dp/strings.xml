@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_sair">Sair</string>
+    <string name="creator">Criado por: Julio</string>
+    <string name="version">Versão</string>
+    <string name="cadastroNomeRestaurante">Nome:</string>
+    <string name="saveRestaurante">Salvar Restaurante</string>
+    <string name="filterTitle">Filtros:</string>
+    <string name="loginIntro">Login</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="action_password">Login</string>
+    <string name="action_login">Login</string>
+</resources>

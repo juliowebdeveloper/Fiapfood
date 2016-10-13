@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="julio.com.br.fiapfoodv2.CadastroActivity">
+
+        <include
+            android:id="@+id/toolbarLayout"
+            layout="@layout/toolbar" />
+
+
+        <FrameLayout
+            android:id="@+id/cadastroIvFrameLayout"
+            style="@style/FrameLayoutFoto"
+            android:layout_below="@id/toolbarLayout">
+
+
+            <ImageView
+                android:id="@+id/ivCadastroFoto"
+                style="@style/ImageViewFotoRestaurante"
+                android:layout_below="@id/toolbarLayout" />
+
+
+            <ImageButton
+                style="@style/SmallCameraCadastro"
+                android:id="@+id/ibTirarFoto"
+                android:layout_below="@id/ivCadastroFoto"
+                android:src="@android:drawable/ic_menu_camera" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/labelNome"
+            style="@style/LabelCadastro"
+            android:layout_below="@+id/cadastroIvFrameLayout"
+            android:text="@string/cadastroNomeRestaurante" />
+
+        <EditText
+            android:id="@+id/etCadastroNomeRestaurante"
+            style="@style/EditTextCadastro"
+            android:layout_below="@id/labelNome" />
+
+        <LinearLayout
+            android:id="@+id/cadastroLinearLayoutLabels"
+            style="@style/LinearLayoutCadastro"
+            android:layout_below="@id/etCadastroNomeRestaurante">
+
+            <TextView
+
+                android:id="@+id/labelTelefone"
+                style="@style/LinearLayoutCadastroLabels"
+                android:text="@string/cadastroTelefoneRestaurante" />
+
+
+            <TextView
+
+                android:id="@+id/labelPreco"
+                style="@style/LinearLayoutCadastroLabels"
+                android:text="@string/cadastroPrecoRestaurante" />
+
+
+            <TextView
+
+                android:id="@+id/labelTipo"
+                style="@style/LinearLayoutCadastroLabels"
+                android:text="@string/cadastroTipoRestaurante" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cadastroLinearLayoutValues"
+            style="@style/LinearLayoutCadastro"
+            android:layout_below="@id/cadastroLinearLayoutLabels">
+
+            <EditText
+                android:id="@+id/etCadastroTelefone"
+                style="@style/EditCadastroLinearValues"
+                android:inputType="phone" />
+
+
+            <EditText
+
+                android:id="@+id/etCadastroPrecoMedio"
+                style="@style/EditCadastroLinearValues"
+                android:inputType="numberDecimal" />
+
+
+            <Spinner
+                android:id="@+id/spinnerTipoRestaurante"
+                style="@style/SpinnerCadastroLinearValues" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/labelObs"
+            style="@style/LabelCadastro"
+            android:layout_below="@id/cadastroLinearLayoutValues"
+            android:text="@string/cadastroObservacaoRestaurante" />
+
+        <EditText
+            android:id="@+id/etCadastroObservacao"
+            style="@style/EditCadastroObsArea"
+            android:layout_below="@+id/labelObs"
+
+            />
+
+        
+        <Button
+           style="@style/ButtonCadastrar"
+            android:id="@+id/btSaveRestaurante"
+            android:text="@string/saveRestaurante"
+
+            android:layout_below="@id/etCadastroObservacao"/>
+        
+        
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+</ScrollView>

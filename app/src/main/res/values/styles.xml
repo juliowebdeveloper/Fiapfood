@@ -1,0 +1,410 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--Tema que a aplicação irá usar e de onde ela está herdando-->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">10sp</item>
+
+    </style>
+
+    <style name="StrongTitle" parent="AppTheme.NoActionBar">
+
+        <item name="android:textColor">@color/colorTextStrong </item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="ViewSeparatorHorizontal"  parent="AppTheme.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/separadorHorizontalHeight</item>
+        <item name="android:background">@android:color/darker_gray</item>
+     </style>
+
+
+
+    <!-- ************************************** Login Activity Styles **************************************************************************** -->
+
+
+<style name="EditTextLogin" parent="AppTheme.NoActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:maxLines">1</item>
+    <item name="android:singleLine">true</item>
+
+
+</style>
+
+
+
+
+
+
+    <!-- ************************************** Main Activity Styles **************************************************************************** -->
+
+
+
+
+
+
+
+
+
+    <style name ="CardViewFilter" parent="AppTheme.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@color/colorPrimaryLighter</item>
+
+    </style>
+
+
+
+    <style name="StrongTitleFilter" parent="StrongTitle">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name ="android:textSize">15sp</item>
+        <item name ="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+
+
+    <style name="LabelsFilter" parent="AppTheme.NoActionBar">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name ="android:textSize">15sp</item>
+        <item name ="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name ="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+
+<style name = "SpaceVertical20Dp" parent="AppTheme.NoActionBar">
+
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/spaceVertical</item>
+
+
+</style>
+
+    <style name = "FilterEditText" parent="AppTheme.NoActionBar">
+
+        <item name="android:background">@drawable/edit_text_design</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp </item>
+        <item name="android:paddingLeft">4dp</item>
+
+    </style>
+
+
+
+    <style name = "FilterEditName" parent="FilterEditText">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+
+
+    </style>
+
+
+    <style name = "FilterEditCusto" parent="FilterEditText">
+
+        <item name="android:layout_width">@dimen/filterEditCustoWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+
+
+    </style>
+
+
+
+    <style name ="CardViewRestaurante" parent="AppTheme.NoActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_margin">6dp</item>
+    <item name="android:clickable">true</item>
+    <item name="android:foreground">?attr/selectableItemBackground</item>
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ************************************** Tela/Dialog Sobre Styles **************************************************************************** -->
+    <style name="SobreTextView" parent="StrongTitle">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+
+    </style>
+
+
+
+
+    <style name="SobreImageViewLogo" parent="SobreTextView">
+
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_margin">3dp</item>
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+    <!-- ************************************** Restaurante ROW Styles **************************************************************************** -->
+
+
+    <style name="RestauranteRowTextView" parent="AppTheme.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right|top</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">10sp</item>
+
+    </style>
+
+    <style name="RestauranteRowTipoTextView" parent="RestauranteRowTextView">
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+
+    <style name="RestauranteRowNomeTextView" parent="RestauranteRowTextView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">@dimen/imageview_row_margin</item>
+        <item name="android:layout_gravity">left|top</item>
+        <item name="android:textSize">19sp</item>
+
+    </style>
+
+
+
+
+    <style name="RestauranteRowImageView" parent="AppTheme.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginLeft">@dimen/imageview_row_margin</item>
+        <item name="android:layout_marginBottom">@dimen/imageview_row_margin</item>
+        <item name="android:layout_marginRight">@dimen/imageview_row_margin</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:scaleType">centerCrop</item>
+
+
+    </style>
+
+
+    <style name="RestauranteRowProgressBar" parent = "android:Widget.ProgressBar.Large">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center|center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/imageview_margin</item>
+        <item name="android:gravity">center|center_vertical</item>
+        <item name="android:visibility">invisible</item>
+
+
+    </style>
+
+
+
+
+    <!-- ************************************** Tela de cadastro Styles **************************************************************************** -->
+
+    <style name ="FrameLayoutFoto" parent="AppTheme.NoActionBar">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/imageview_margin</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+
+
+    </style>
+
+
+
+
+    <style name="ImageViewFotoRestaurante" parent="AppTheme.NoActionBar">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/cadastro_restaurante_imageview_height</item>
+        <item name="android:layout_margin">@dimen/imageview_margin</item>
+        <item name="android:background">@color/cardview_light_background</item>
+
+
+    </style>
+
+
+    <style name="SmallCameraCadastro" parent="AppTheme.NoActionBar">
+
+       <item name="android:layout_gravity">right|bottom</item>
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+
+    <style name="LabelCadastro" parent="AppTheme.NoActionBar">
+
+        <item name="android:textColor">@color/colorTextStrong </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_marginLeft">@dimen/imageview_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+
+
+
+    <style name="EditTextCadastro" parent="AppTheme.NoActionBar">
+
+        <item name="android:textColor">@color/colorTextStrong </item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_marginLeft">@dimen/imageview_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+
+
+    <style name="EditCadastroLinearValues" parent="EditTextCadastro">
+
+        <item name="android:textColor">@color/colorTextStrong </item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_marginLeft">@dimen/imageview_margin</item>
+        <item name="android:layout_width">10dp</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="SpinnerCadastroLinearValues" parent="EditTextCadastro">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">10dp</item>
+        <item name ="android:layout_height">20dp</item>
+    </style>
+
+
+    <style name="EditCadastroObsArea" parent="EditTextCadastro">
+        <item name="android:background">@drawable/rounded</item>
+        <item name="android:lines">5</item>
+
+
+    </style>
+
+
+
+    <style name="LinearLayoutCadastro" parent="AppTheme.NoActionBar">
+
+        <item name="android:layout_marginLeft">@dimen/imageview_margin</item>
+        <item name="android:gravity">fill_horizontal</item>
+        <item name="android:weightSum">3</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+
+
+    </style>
+
+
+
+    <style name="LinearLayoutCadastroLabels" parent="LabelCadastro">
+
+        <!-- Customize your theme here. -->
+        <item name="android:layout_marginLeft">@dimen/imageview_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+
+
+    <style name="ButtonCadastrar" parent="AppTheme.NoActionBar">
+
+        <item name="android:textColor">@color/colorSolidWhiteBackground</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name ="android:background">@drawable/saverestaurantebuttonshape</item>
+        <item name ="android:shadowColor">@color/colorCadastroButtonShadow</item>
+        <item name ="android:shadowDx">0 </item>
+        <item name ="android:shadowDy">0</item>
+        <item name ="android:shadowRadius">5</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name ="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+
+
+
+    </style>
+
+
+
+    <!-- ****************************************************************************************************************** -->
+
+
+
+    <!-- ************************************************Restaurante Details Activity****************************************************************** -->
+<style name="DetailsTextView" parent="AppTheme.NoActionBar">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">10sp</item>
+    <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    <item name="android:lineSpacingExtra">@dimen/activity_horizontal_margin</item>
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f74a1</color>
+    <color name="colorPrimaryLighter">#dc9ac8ef</color>
+    <color name="colorPrimaryDark">#224b59</color>
+    <color name="colorAccent">#dc9223</color>
+    <color name="colorTextStrong">#393735</color>
+    <color name ="colorSolidWhiteBackground">#FFFFFF</color>
+    <color name ="colorBackgroundTintCadastroFab">#bc1515</color>
+    <color name="colorRippleCadastroFab">#FFF</color>
+
+
+
+
+    <color name ="colorCadastroButtonShadow">#A8A8A8</color>
+
+
+</resources>

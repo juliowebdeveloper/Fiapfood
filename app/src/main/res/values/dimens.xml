@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cadastro_restaurante_imageview_height">180dp</dimen>
+    <dimen name="imageview_margin">7dp</dimen>
+    <dimen name ="imageview_row_margin">4dp</dimen>
+
+
+    <!-- Dimensoes das bordas circulares dos EditText Areas -->
+    <dimen name="stroke_rounded">2dp</dimen>
+    <dimen name="bottomRightRadius_rounded">15dp</dimen>
+    <dimen name="bottomLeftRadius_rounded">15dp</dimen>
+    <dimen name="topLeftRadius_rounded">15dp</dimen>
+    <dimen name="topRightRadius_rounded">15dp</dimen>
+    <dimen name="padding_rounded">7dp</dimen>
+
+
+    <dimen name="margin_cadastrofab">16dp</dimen>
+
+    <dimen name="spaceVertical">20dp</dimen>
+
+    <dimen name="separadorHorizontalHeight">1dp</dimen>
+
+    <dimen name="filterEditCustoWidth">100dp</dimen>
+
+
+    <dimen name="cardViewCornerRadius">2dp</dimen>
+    <dimen name="cardViewElevation">6dp</dimen>
+
+    <dimen name ="detailsMapHeight">500dp</dimen>
+
+</resources>

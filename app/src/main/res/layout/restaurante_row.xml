@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    style="@style/CardViewRestaurante"
+    card_view:cardBackgroundColor="@color/colorSolidWhiteBackground"
+    card_view:cardCornerRadius="@dimen/cardViewCornerRadius"
+    card_view:cardElevation="@dimen/cardViewElevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvNomeRestaurante"
+                style="@style/RestauranteRowNomeTextView"
+                android:text="sadsadasdsadsa"
+                />
+
+            <TextView
+                android:id="@+id/tvPrecoRestaurante"
+              style="@style/RestauranteRowTextView"
+                />
+
+            <TextView
+                android:id="@+id/tvTipoRestaurante"
+               style="@style/RestauranteRowTipoTextView"
+               />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Foto do Restaurante -->
+                <ImageView
+                    android:id="@+id/ivFotoRestaurante"
+                    style="@style/RestauranteRowImageView"/>
+                <!-- Barra de progresso enquanto carrega a foto -->
+                <ProgressBar
+                    android:id="@+id/pbRestaurante"
+                    style="@style/RestauranteRowProgressBar" />
+
+
+                    </FrameLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+
+
+        </FrameLayout>
+
+        <View
+           style="@style/ViewSeparatorHorizontal"  />
+
+
+    </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+

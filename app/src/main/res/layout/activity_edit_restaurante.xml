@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:id="@+id/editRelativeLayout"
+
+        tools:context="julio.com.br.fiapfoodv2.EditRestauranteActivity">
+
+    <include
+        android:id="@+id/toolbarLayout"
+        layout="@layout/toolbar" />
+
+
+
+    <FrameLayout
+        android:id="@+id/editIvFrameLayout"
+        style="@style/FrameLayoutFoto"
+        android:layout_below="@id/toolbarLayout">
+
+
+        <ImageView
+            android:id="@+id/ivEditFoto"
+            style="@style/ImageViewFotoRestaurante"
+            android:layout_below="@id/toolbarLayout" />
+
+
+        <ImageButton
+            style="@style/SmallCameraCadastro"
+            android:id="@+id/ibEditTirarFoto"
+            android:layout_below="@id/ivEditFoto"
+            android:src="@android:drawable/ic_menu_camera" />
+
+    </FrameLayout>
+
+
+
+    <TextView
+            android:id="@+id/labelNome"
+            style="@style/LabelCadastro"
+            android:layout_below="@+id/editIvFrameLayout"
+            android:text="@string/cadastroNomeRestaurante" />
+
+        <EditText
+            android:id="@+id/etEditNomeRestaurante"
+            style="@style/EditTextCadastro"
+            android:layout_below="@id/labelNome" />
+
+        <LinearLayout
+            android:id="@+id/cadastroLinearLayoutLabels"
+            style="@style/LinearLayoutCadastro"
+            android:layout_below="@id/etEditNomeRestaurante">
+
+            <TextView
+
+                android:id="@+id/labelTelefone"
+                style="@style/LinearLayoutCadastroLabels"
+                android:text="@string/cadastroTelefoneRestaurante" />
+
+
+            <TextView
+
+                android:id="@+id/labelPreco"
+                style="@style/LinearLayoutCadastroLabels"
+                android:text="@string/cadastroPrecoRestaurante" />
+
+
+            <TextView
+
+                android:id="@+id/labelTipo"
+                style="@style/LinearLayoutCadastroLabels"
+                android:text="@string/cadastroTipoRestaurante" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cadastroLinearLayoutValues"
+            style="@style/LinearLayoutCadastro"
+            android:layout_below="@id/cadastroLinearLayoutLabels">
+
+            <EditText
+                android:id="@+id/etEditTelefone"
+                style="@style/EditCadastroLinearValues"
+                android:inputType="phone" />
+
+
+            <EditText
+
+                android:id="@+id/etEditPrecoMedio"
+                style="@style/EditCadastroLinearValues"
+                android:inputType="numberDecimal" />
+
+
+            <Spinner
+                android:id="@+id/spinnerEditTipoRestaurante"
+                style="@style/SpinnerCadastroLinearValues" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/labelObs"
+            style="@style/LabelCadastro"
+            android:layout_below="@id/cadastroLinearLayoutValues"
+            android:text="@string/cadastroObservacaoRestaurante" />
+
+        <EditText
+            android:id="@+id/etEditObservacao"
+            style="@style/EditCadastroObsArea"
+            android:layout_below="@+id/labelObs"
+
+            />
+
+
+        <Button
+            style="@style/ButtonCadastrar"
+            android:id="@+id/btSaveEdit"
+            android:text="@string/saveEdit"
+
+            android:layout_below="@id/etEditObservacao"/>
+
+
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

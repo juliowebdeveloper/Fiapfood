@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Fiap Food</string>
+
+
+    <string name="google_maps_key">AIzaSyCll2Joz5zBCg-UnhUXG9ytFpTJ4sRDZNU</string>
+    <string name="cadastrar">Register</string>
+    <string name="wrongPassword">Wrong password</string>
+    <string name="cadastroSuccess">Restaurant Saved, you can check it on the list below</string>
+    <string name="cadastroError">An Error occurred when trying to save the restaurant</string>
+    <string name="loadingWait">Aguarde</string>
+
+    <string name="loadingRestaurants">Please Wait while we\'re loading registered restaurants</string>
+
+
+    <string name="meusrestaurantes">My Restaurantss</string>
+    <string name="menu_sobre">About</string>
+    <string name="menu_sair">Exit</string>
+    <string name="creator">Created by: Julio Ribeiro</string>
+    <string name="versionName">1.0</string>
+    <string name="version">Version</string>
+    <string name="cadastroNomeRestaurante">Name:</string>
+    <string name="cadastroPrecoRestaurante">Average Cost:</string>
+    <string name="filterDE">From:</string>
+    <string name="filterATE">To:</string>
+
+
+    <string name="cadastroObservacaoRestaurante">Observation:</string>
+    <string name="cadastroTipoRestaurante">Type:</string>
+    <string name="cadastroTelefoneRestaurante">Phone:</string>
+    <string name="saveRestaurante">Save Restaurant</string>
+    <string name="saveEdit">Save Changes</string>
+    <string name="filterTitle">Filters:</string>
+
+
+    <string-array name="arrayTipoRestaurante">
+        <item>All you can eat</item>
+        <item>Fast Food</item>
+        <item>Delivery</item>
+        <item>Undefined</item>
+        <item>Do not know</item>
+    </string-array>
+
+
+    <string-array name="arrayTipoRestauranteFilter">
+        <item>Select One</item>
+        <item>All you can eat</item>
+        <item>Fast Food</item>
+        <item>Delivery</item>
+        <item>Undefined</item>
+        <item>Do not know</item>
+    </string-array>
+
+    <string name="nullNameCadastro">Name is required</string>
+    <string name="nullNameSugestion">Suggestion</string>
+    <string name="nullNameSuggested">Suggested Restaurant by Fiap Food</string>
+
+
+    <string name="nullPhoto">We recommend you to put a photo</string>
+    <string name="errorPhoto">An error occurred when trying to take a photo</string>
+    <string name="errorCreateFile">An error occurred when trying to create file</string>
+
+    <string name="deviceNoCamera">Your device doesn\'t have camera support</string>
+
+
+    <string name="cantRegister">An error occurred when trying to save this restaurant</string>
+    <string name="cantGetLocation">An error occurred when trying to get this restaurant location</string>
+
+    <string name="removedRestaurant">Restaurant Removed</string>
+    <string name="loginIntro">Login</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="action_password">Login</string>
+    <string name="action_login">Login</string>
+
+
+</resources>
